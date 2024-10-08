@@ -56,7 +56,7 @@ function Sidebar() {
 		}
 	]
 	return (
-		<div className=' w-[20%] h-[100vh] bg-[#363740]'>
+		<div className=' w-[20%] h-[100vh] overflow-y-auto bg-[#363740]'>
 			<a className='flex items-center gap-[12px] pt-[37px] pl-[32px] pb-[59px]' href="/">
 				<Logo />
 				<span className="text-[#A4A6B3] text-[19px] font-bold tracking-[0.4px] opacity-[0.7]">Dashboard Kit</span>

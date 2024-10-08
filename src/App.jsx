@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='containers flex justify-between'>
 			<Sidebar/>
-			<div className='w-[80%] py-[36px] px-[30px] overflow-y-auto'>
+			<div className='w-[80%] h-[100vh] py-[36px] px-[30px] overflow-y-auto'>
 				<Header/>
 				<Routes>
 					<Route path='/' element={<Overview/>}/>
